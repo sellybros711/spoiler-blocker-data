@@ -1,0 +1,24 @@
+{
+  "_comment": "FILL THIS IN. Example dates are made up. weak: keywords that are also everyday words; they only count with a context word, a second keyword, or on an air night (any common word used as a keyword must go here). context: show vocabulary that backs up a weak keyword but never covers on its own. aliases: show names, hashtags and premium live event names (these never change). people: wrestlers and nicknames who have been around for years. seasons: one per calendar year; that year's debuts, new ring names, factions and storyline words go in its people and terms. episodes: one per RAW, SmackDown and premium live event, oldest first, newest last, each with the seasonId of its year. Premium live events get \"kind\": \"event\". Keep ids unique. Then run npm test.",
+  "id": "wwe",
+  "name": "WWE",
+  "aliases": ["WWE", "RAW", "#WWERaw", "SmackDown", "#SmackDown"],
+  "people": ["Cody Rhodes", "CM Punk", "Rhea Ripley"],
+  "weak": ["RAW"],
+  "context": ["wrestling", "wrestler", "main event", "title match", "championship", "tag team", "ringside", "heel turn", "face turn", "pinfall", "promo", "entrance", "Monday Night"],
+  "seasons": [
+    {
+      "id": "2027",
+      "name": "2027",
+      "premiereDate": "2027-01-01",
+      "people": ["EXAMPLE: a wrestler who debuts this year"],
+      "terms": ["EXAMPLE: a new faction name"]
+    }
+  ],
+  "episodes": [
+    { "id": "example-raw-1", "title": "EXAMPLE: replace with a real RAW", "airDate": "2027-01-04", "seasonId": "2027" },
+    { "id": "example-smackdown-1", "title": "EXAMPLE: replace with a real SmackDown", "airDate": "2027-01-08", "seasonId": "2027" },
+    { "id": "example-raw-2", "title": "EXAMPLE: replace with a real RAW", "airDate": "2027-01-11", "seasonId": "2027" },
+    { "id": "example-ple-1", "title": "EXAMPLE: replace with a real premium live event", "airDate": "2027-01-31", "seasonId": "2027", "kind": "event" }
+  ]
+}

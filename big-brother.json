@@ -1,0 +1,22 @@
+{
+  "_comment": "FILL THIS IN. Example dates are made up. weak: keywords that are also everyday words; they only count with a context word, a second keyword, or on an air night (any common word used as a keyword must go here). context: show vocabulary that backs up a weak keyword but never covers on its own. aliases: show names and hashtags that never change. people: names that matter every season (the host). seasons: one per season; that season's houseguests and nicknames go in people (add late arrivals when they enter), named twists, alliance names and season hashtags like #BB28 go in terms. episodes: every episode with its air date (YYYY-MM-DD), oldest first, newest last, each with its seasonId. Live evictions and the finale can get \"kind\": \"event\". Keep ids unique. Then run npm test.",
+  "id": "big-brother",
+  "name": "Big Brother",
+  "aliases": ["Big Brother", "#BigBrother", "#BBUS"],
+  "people": ["Julie Chen Moonves"],
+  "weak": ["Big Brother"],
+  "context": ["HOH", "head of household", "veto", "POV", "evicted", "eviction", "houseguest", "houseguests", "nominations", "nominated", "backyard", "live feeds", "jury", "CBS"],
+  "seasons": [
+    {
+      "id": "example-season",
+      "name": "EXAMPLE: replace with the real season name",
+      "premiereDate": "2027-07-08",
+      "people": ["EXAMPLE: a houseguest"],
+      "terms": ["EXAMPLE: the season hashtag, like #BB29"]
+    }
+  ],
+  "episodes": [
+    { "id": "example-1", "title": "EXAMPLE: replace with a real episode", "airDate": "2027-07-08", "seasonId": "example-season" },
+    { "id": "example-2", "title": "EXAMPLE: replace with a real episode", "airDate": "2027-07-09", "seasonId": "example-season" }
+  ]
+}

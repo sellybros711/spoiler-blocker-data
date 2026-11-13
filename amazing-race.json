@@ -1,0 +1,22 @@
+{
+  "_comment": "FILL THIS IN. Example dates are made up. weak: keywords that are also everyday words; they only count with a context word, a second keyword, or on an air night (any common word used as a keyword must go here). context: show vocabulary that backs up a weak keyword but never covers on its own. aliases: show names and hashtags that never change. people: names that matter every season (the host). seasons: one per season; that season's teams and nicknames go in people, named twists and season hashtags go in terms. episodes: every episode with its air date (YYYY-MM-DD), oldest first, newest last, each with its seasonId. The finale gets \"kind\": \"event\". Keep ids unique. Then run npm test.",
+  "id": "amazing-race",
+  "name": "The Amazing Race",
+  "aliases": ["The Amazing Race", "Amazing Race", "#AmazingRace", "#TheAmazingRace"],
+  "people": ["Phil Keoghan"],
+  "weak": ["The Amazing Race", "Amazing Race"],
+  "context": ["pit stop", "roadblock", "detour", "U-turn", "express pass", "eliminated", "last team", "leg"],
+  "seasons": [
+    {
+      "id": "example-season",
+      "name": "EXAMPLE: replace with the real season name",
+      "premiereDate": "2027-02-24",
+      "people": ["EXAMPLE: a racer"],
+      "terms": ["EXAMPLE: a named twist"]
+    }
+  ],
+  "episodes": [
+    { "id": "example-1", "title": "EXAMPLE: replace with a real episode", "airDate": "2027-02-24", "seasonId": "example-season" },
+    { "id": "example-2", "title": "EXAMPLE: replace with a real episode", "airDate": "2027-03-03", "seasonId": "example-season" }
+  ]
+}
