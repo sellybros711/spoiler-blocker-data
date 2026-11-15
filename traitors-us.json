@@ -1,22 +1,72 @@
 {
-  "_comment": "FILL THIS IN. Example dates are made up. weak: keywords that are also everyday words; they only count with a context word, a second keyword, or on an air night (any common word used as a keyword must go here). context: show vocabulary that backs up a weak keyword but never covers on its own. aliases: show names and hashtags that never change. people: names that matter every season (the host). seasons: one per season; that season's cast and nicknames go in people, named twists and season hashtags go in terms. episodes: every episode with its Peacock release date (YYYY-MM-DD), oldest first, newest last, each with its seasonId. The finale gets \"kind\": \"event\". Keep ids unique. Then run npm test.",
+  "_comment": "accounts: the show's official X handles without the @ (none confirmed yet). weak: keywords that are also everyday words or common names; they only count with a context word, a second keyword, or on an air night. context: show vocabulary that backs up a weak keyword but never covers on its own. aliases: show names and hashtags that never change. people: names that matter every season (the host). seasons: one per season; that season's cast goes in people, named twists and season hashtags in terms. episodes: the date it FIRST airs in the US (New Blood: NBC Thursday 8 PM ET; Peacock is the next day), oldest first. Two episodes on the same night are ONE entry (\"Episodes 1 & 2\"): Plot Armor draws its line by date and keeps a two-episode night covered until both are ticked, so one entry reads more simply in the popup. The finale gets \"kind\": \"event\". New Blood dates from NBC's schedule, titles and cast from Wikipedia (Nov 2026). Next: the celebrity season (Peacock, early 2027) once its date is announced. Then run npm test.",
   "id": "traitors-us",
   "name": "The Traitors",
-  "aliases": ["The Traitors", "Traitors US", "#TheTraitors"],
+  "aliases": [
+    "The Traitors",
+    "Traitors US",
+    "#TheTraitors",
+    "#TraitorsUS",
+    "The Traitors: New Blood",
+    "Traitors New Blood",
+    "#TraitorsNewBlood"
+  ],
   "people": ["Alan Cumming"],
-  "weak": ["The Traitors"],
-  "context": ["roundtable", "round table", "banished", "banishment", "murdered", "faithful", "faithfuls", "castle", "turret", "shield", "Peacock"],
+  "accounts": [],
+  "weak": ["The Traitors", "Abby Lee", "Logan Smith", "Morgan Cook"],
+  "context": ["roundtable", "round table", "banished", "banishment", "murdered", "faithful", "faithfuls", "castle", "turret", "shield", "Peacock", "NBC", "New Blood"],
   "seasons": [
     {
-      "id": "example-season",
-      "name": "EXAMPLE: replace with the real season name",
-      "premiereDate": "2027-01-07",
-      "people": ["EXAMPLE: a cast member"],
-      "terms": ["EXAMPLE: a named twist"]
+      "id": "new-blood",
+      "name": "New Blood (2026)",
+      "premiereDate": "2026-09-17",
+      "people": [
+        "Kim Daily",
+        "Madeline Kostopulos",
+        "Kostopulos",
+        "Xavier Scruggs",
+        "Arisa Thomas",
+        "Arisa",
+        "Logan Smith",
+        "Sherry Kuehl",
+        "Niyyah Hayes",
+        "Niyyah Bilal Hayes",
+        "Niyyah",
+        "Michael Foote",
+        "Mark Zgoda",
+        "Zgoda",
+        "Abby Lee",
+        "Tomica Adams",
+        "Tomica",
+        "Morgan Cook",
+        "Joe Vanella",
+        "Vanella",
+        "Ben McDonnell",
+        "Shane Beatty",
+        "Abbey Benjamin",
+        "Abby Benjamin",
+        "Katie Fites",
+        "Wyatt Gillespie",
+        "Kriste Lewis",
+        "Kriste",
+        "Clyde Moser",
+        "Jay Vinnedge",
+        "Vinnedge",
+        "Victor Vollbrechthausen",
+        "Vollbrechthausen"
+      ],
+      "terms": ["#TraitorsNewBlood"]
     }
   ],
   "episodes": [
-    { "id": "example-1", "title": "EXAMPLE: replace with a real episode", "airDate": "2027-01-07", "seasonId": "example-season" },
-    { "id": "example-2", "title": "EXAMPLE: replace with a real episode", "airDate": "2027-01-14", "seasonId": "example-season" }
+    { "id": "nb-e01-02", "title": "Episodes 1 & 2", "airDate": "2026-09-17", "seasonId": "new-blood" },
+    { "id": "nb-e03-04", "title": "Episodes 3 & 4", "airDate": "2026-09-24", "seasonId": "new-blood" },
+    { "id": "nb-e05", "title": "Episode 5: Wake of the Living Dead", "airDate": "2026-10-08", "seasonId": "new-blood" },
+    { "id": "nb-e06", "title": "Episode 6: A Murder of Necessity", "airDate": "2026-10-15", "seasonId": "new-blood" },
+    { "id": "nb-e07", "title": "Episode 7: Two Pigs Under a Blanket", "airDate": "2026-10-22", "seasonId": "new-blood" },
+    { "id": "nb-e08", "title": "Episode 8: A Bad Apple", "airDate": "2026-10-29", "seasonId": "new-blood" },
+    { "id": "nb-e09", "title": "Episode 9: Playing Chess", "airDate": "2026-11-05", "seasonId": "new-blood" },
+    { "id": "nb-e10", "title": "Episode 10: The Sun, the Moon and the Truth", "airDate": "2026-11-12", "seasonId": "new-blood" },
+    { "id": "nb-finale", "title": "New Blood Finale (Episodes 11 & 12)", "airDate": "2026-11-19", "seasonId": "new-blood", "kind": "event" }
   ]
 }

@@ -1,9 +1,10 @@
 {
-  "_comment": "FILL THIS IN. Example dates are made up. weak: keywords that are also everyday words; they only count with a context word, a second keyword, or on an air night (any common word used as a keyword must go here). context: show vocabulary that backs up a weak keyword but never covers on its own. aliases: show names and hashtags that never change. people: names that matter every season (the host). seasons: one per season; that season's castaways and nicknames go in people, tribe names, named twists and advantages and the season hashtag go in terms. episodes: every episode with its air date (YYYY-MM-DD), oldest first, newest last, each with its seasonId. The finale gets \"kind\": \"event\". Keep ids unique. Then run npm test.",
+  "_comment": "accounts: the show's official X handles without the @; anything they post is covered as about the show. FILL THIS IN. Example dates are made up. weak: keywords that are also everyday words; they only count with a context word, a second keyword, or on an air night (any common word used as a keyword must go here). context: show vocabulary that backs up a weak keyword but never covers on its own. aliases: show names and hashtags that never change. people: names that matter every season (the host). seasons: one per season; that season's castaways and nicknames go in people, tribe names, named twists and advantages and the season hashtag go in terms. episodes: every episode with its air date (YYYY-MM-DD), oldest first, newest last, each with its seasonId. The finale gets \"kind\": \"event\". Keep ids unique. Then run npm test.",
   "id": "survivor",
   "name": "Survivor",
   "aliases": ["Survivor", "#Survivor", "#SurvivorCBS"],
   "people": ["Jeff Probst"],
+  "accounts": ["survivorcbs"],
   "weak": ["Survivor"],
   "context": ["tribal", "tribal council", "voted out", "idol", "immunity", "tribe", "blindside", "merge", "jury", "castaway", "castaways", "fire making", "CBS"],
   "seasons": [
