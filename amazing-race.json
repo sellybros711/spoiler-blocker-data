@@ -1,23 +1,101 @@
 {
-  "_comment": "accounts: the show's official X handles without the @; anything they post is covered as about the show. FILL THIS IN. Example dates are made up. weak: keywords that are also everyday words; they only count with a context word, a second keyword, or on an air night (any common word used as a keyword must go here). context: show vocabulary that backs up a weak keyword but never covers on its own. aliases: show names and hashtags that never change. people: names that matter every season (the host). seasons: one per season; that season's teams and nicknames go in people, named twists and season hashtags go in terms. episodes: every episode with its air date (YYYY-MM-DD), oldest first, newest last, each with its seasonId. The finale gets \"kind\": \"event\". Keep ids unique. Then run npm test.",
+  "_comment": "accounts: the show's official X handles without the @ (AmazingRaceCBS not yet re-confirmed). weak: keywords that are also everyday words or names shared with someone famous; they only count with a context word, a second keyword, or on an air night. context: show vocabulary that backs up a weak keyword but never covers on its own. aliases: show names and hashtags that never change. people: names that matter every season (the host). seasons: one per season; racers (full names and first names fans use) in people, season twists and hashtags in terms. episodes: CBS Wednesday 9:30 PM ET air dates, oldest first; the finale gets \"kind\": \"event\". Season 39 data from Wikipedia, Paramount+ and DirecTV (Nov 15 2026). TO DO: episodes 9-12 and the Dec 9 finale come from Wikipedia only; confirm on CBS. Then run npm test.",
   "id": "amazing-race",
   "name": "The Amazing Race",
-  "aliases": ["The Amazing Race", "Amazing Race", "#AmazingRace", "#TheAmazingRace"],
-  "people": ["Phil Keoghan"],
-  "accounts": ["AmazingRaceCBS"],
-  "weak": ["The Amazing Race", "Amazing Race"],
-  "context": ["pit stop", "roadblock", "detour", "U-turn", "express pass", "eliminated", "last team", "leg"],
+  "aliases": [
+    "The Amazing Race",
+    "Amazing Race",
+    "#AmazingRace",
+    "#TheAmazingRace"
+  ],
+  "people": [
+    "Phil Keoghan"
+  ],
+  "accounts": [
+    "AmazingRaceCBS"
+  ],
+  "weak": [
+    "The Amazing Race",
+    "Amazing Race",
+    "Zach Johnson",
+    "Matt Patterson",
+    "Erin Taylor",
+    "Ali Krieger",
+    "Joanna Lohman",
+    "Katie Schultz"
+  ],
+  "context": [
+    "pit stop",
+    "roadblock",
+    "detour",
+    "U-turn",
+    "express pass",
+    "eliminated",
+    "last team",
+    "leg",
+    "Phil",
+    "Roadside Assistance",
+    "Intersection",
+    "Driver's Seat",
+    "racers"
+  ],
   "seasons": [
     {
-      "id": "example-season",
-      "name": "EXAMPLE: replace with the real season name",
-      "premiereDate": "2027-02-24",
-      "people": ["EXAMPLE: a racer"],
-      "terms": ["EXAMPLE: a named twist"]
+      "id": "tar39",
+      "name": "Season 39",
+      "premiereDate": "2026-09-30",
+      "people": [
+        "Zach Johnson",
+        "Nate Johnson",
+        "Katie Schultz",
+        "Charlotte Schultz",
+        "Jody Rebhun",
+        "Jenn Naso",
+        "Cody Langlois",
+        "Jaime Tribo",
+        "Dafina Dunmore",
+        "Saran Dunmore",
+        "Doug Matter",
+        "Dylan Matter",
+        "Michelle Patterson",
+        "Michelle Rozalski Patterson",
+        "Matt Patterson",
+        "Ali Krieger",
+        "Joanna Lohman",
+        "Ann-Marie Tejcek",
+        "Riley Tejcek",
+        "Tejcek",
+        "Anuar Tager",
+        "Andrea Tager Ballesca",
+        "Anuar",
+        "Conner Wilson",
+        "Garrett McGuire",
+        "Daisha Wilks",
+        "Daisha",
+        "Dalton Hamby",
+        "Erin Taylor",
+        "Javi Vintimilla",
+        "Vintimilla"
+      ],
+      "terms": [
+        "Amazing Race 39",
+        "#TAR39",
+        "#AmazingRace39"
+      ]
     }
   ],
   "episodes": [
-    { "id": "example-1", "title": "EXAMPLE: replace with a real episode", "airDate": "2027-02-24", "seasonId": "example-season" },
-    { "id": "example-2", "title": "EXAMPLE: replace with a real episode", "airDate": "2027-03-03", "seasonId": "example-season" }
+    { "id": "tar39-e01", "title": "Episode 1: Sorry Guys, We Used Our Express Pass", "airDate": "2026-09-30", "seasonId": "tar39" },
+    { "id": "tar39-e02", "title": "Episode 2: Are Tomatoes Good for Skin Care?", "airDate": "2026-10-01", "seasonId": "tar39" },
+    { "id": "tar39-e03", "title": "Episode 3: This Is Sick and Twisted", "airDate": "2026-10-07", "seasonId": "tar39" },
+    { "id": "tar39-e04", "title": "Episode 4: Deception and Sleight of Hand", "airDate": "2026-10-14", "seasonId": "tar39" },
+    { "id": "tar39-e05", "title": "Episode 5: That's Honestly on Them", "airDate": "2026-10-21", "seasonId": "tar39" },
+    { "id": "tar39-e06", "title": "Episode 6: A Fine Line Between Confidence and Stupidity", "airDate": "2026-10-28", "seasonId": "tar39" },
+    { "id": "tar39-e07", "title": "Episode 7: The Amazing Nightmare", "airDate": "2026-11-04", "seasonId": "tar39" },
+    { "id": "tar39-e08", "title": "Episode 8: Million Dollar Moves", "airDate": "2026-11-11", "seasonId": "tar39" },
+    { "id": "tar39-e09", "title": "Episode 9: A Double-Edged Sword with an Alliance", "airDate": "2026-11-18", "seasonId": "tar39" },
+    { "id": "tar39-e10", "title": "Episode 10: We're Not Their Friends", "airDate": "2026-11-25", "seasonId": "tar39" },
+    { "id": "tar39-e11", "title": "Episode 11: Woman of My Word", "airDate": "2026-12-02", "seasonId": "tar39" },
+    { "id": "tar39-finale", "title": "Finale (Episode 12)", "airDate": "2026-12-09", "seasonId": "tar39", "kind": "event" }
   ]
 }

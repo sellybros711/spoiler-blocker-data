@@ -1,23 +1,94 @@
 {
-  "_comment": "accounts: the show's official X handles without the @; anything they post is covered as about the show. FILL THIS IN. Example dates are made up. weak: keywords that are also everyday words; they only count with a context word, a second keyword, or on an air night (any common word used as a keyword must go here). context: show vocabulary that backs up a weak keyword but never covers on its own. aliases: show names and hashtags that never change. people: names that matter every season (the host). seasons: one per season; that season's castaways and nicknames go in people, tribe names, named twists and advantages and the season hashtag go in terms. episodes: every episode with its air date (YYYY-MM-DD), oldest first, newest last, each with its seasonId. The finale gets \"kind\": \"event\". Keep ids unique. Then run npm test.",
+  "_comment": "accounts: the show's official X handles without the @ (survivorcbs not yet re-confirmed). weak: keywords that are also everyday words or names shared with someone famous; they only count with a context word, a second keyword, or on an air night. context: show vocabulary that backs up a weak keyword but never covers on its own. aliases: show names and hashtags that never change. people: names that matter every season (the host). seasons: one per season; castaways (full names and the names they go by) in people, tribe names, twists and season hashtags in terms. episodes: CBS Wednesday 8 PM ET air dates, oldest first; the finale gets \"kind\": \"event\". Survivor 51 data from Wikipedia and Paramount+ (Nov 15 2026). TO DO: episode 9 (Nov 18) is from Wikipedia only; add episodes 10 onward and the finale once CBS lists them. Then run npm test.",
   "id": "survivor",
   "name": "Survivor",
-  "aliases": ["Survivor", "#Survivor", "#SurvivorCBS"],
-  "people": ["Jeff Probst"],
-  "accounts": ["survivorcbs"],
-  "weak": ["Survivor"],
-  "context": ["tribal", "tribal council", "voted out", "idol", "immunity", "tribe", "blindside", "merge", "jury", "castaway", "castaways", "fire making", "CBS"],
+  "aliases": [
+    "Survivor",
+    "#Survivor",
+    "#SurvivorCBS"
+  ],
+  "people": [
+    "Jeff Probst"
+  ],
+  "accounts": [
+    "survivorcbs"
+  ],
+  "weak": [
+    "Survivor",
+    "Jelly",
+    "Dina",
+    "Open Era"
+  ],
+  "context": [
+    "tribal",
+    "tribal council",
+    "voted out",
+    "idol",
+    "immunity",
+    "tribe",
+    "blindside",
+    "merge",
+    "jury",
+    "castaway",
+    "castaways",
+    "fire making",
+    "CBS"
+  ],
   "seasons": [
     {
-      "id": "example-season",
-      "name": "EXAMPLE: replace with the real season name",
-      "premiereDate": "2027-02-24",
-      "people": ["EXAMPLE: a castaway"],
-      "terms": ["EXAMPLE: a tribe name"]
+      "id": "s51",
+      "name": "Survivor 51: The Open Era",
+      "premiereDate": "2026-09-23",
+      "people": [
+        "Aaliyah Puglia",
+        "Ana Sani",
+        "Rob Antonson",
+        "Patt Cannaday",
+        "Jenna Doore",
+        "Alexis Levine",
+        "Linnea Capobianco",
+        "Ori Jean-Charles",
+        "Brady Booker",
+        "Danny Kilby",
+        "Kilby",
+        "Kristin Flickinger",
+        "Carter Krull",
+        "Cristian Chavez",
+        "Devin Way",
+        "Eric Macksoud",
+        "Macksoud",
+        "Angelica Loblack",
+        "Jelly",
+        "Lewis Kelly",
+        "Maggie Nestor",
+        "Mike Pinsky",
+        "Sharonda Cox",
+        "Sharonda",
+        "Thien An Nguyen",
+        "Thien An"
+      ],
+      "terms": [
+        "Savu",
+        "Toka",
+        "Dina",
+        "Tovuto",
+        "Open Era",
+        "Survivor 51",
+        "#Survivor51",
+        "Helicopter Alliance",
+        "Salt Alliance"
+      ]
     }
   ],
   "episodes": [
-    { "id": "example-1", "title": "EXAMPLE: replace with a real episode", "airDate": "2027-02-24", "seasonId": "example-season" },
-    { "id": "example-2", "title": "EXAMPLE: replace with a real episode", "airDate": "2027-03-03", "seasonId": "example-season" }
+    { "id": "s51-e01", "title": "Episode 1: Permanent Uncertainty", "airDate": "2026-09-23", "seasonId": "s51" },
+    { "id": "s51-e02", "title": "Episode 2: Weaponized Honesty", "airDate": "2026-09-30", "seasonId": "s51" },
+    { "id": "s51-e03", "title": "Episode 3: What I'm Smellin' Is Stinky", "airDate": "2026-10-07", "seasonId": "s51" },
+    { "id": "s51-e04", "title": "Episode 4: That's the Magic of Survivor", "airDate": "2026-10-14", "seasonId": "s51" },
+    { "id": "s51-e05", "title": "Episode 5: Not Here to Get a Pedicure", "airDate": "2026-10-21", "seasonId": "s51" },
+    { "id": "s51-e06", "title": "Episode 6: I Love Crying", "airDate": "2026-10-28", "seasonId": "s51" },
+    { "id": "s51-e07", "title": "Episode 7: The Girl at the Prom", "airDate": "2026-11-04", "seasonId": "s51" },
+    { "id": "s51-e08", "title": "Episode 8: Load the Ark, Two by Two", "airDate": "2026-11-11", "seasonId": "s51" },
+    { "id": "s51-e09", "title": "Episode 9: Wilder Than a Cat in a Bathtub", "airDate": "2026-11-18", "seasonId": "s51" }
   ]
 }
