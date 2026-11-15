@@ -1,5 +1,5 @@
 {
-  "_comment": "accounts: the show's official X handles without the @ (survivorcbs not yet re-confirmed). weak: keywords that are also everyday words or names shared with someone famous; they only count with a context word, a second keyword, or on an air night. context: show vocabulary that backs up a weak keyword but never covers on its own. aliases: show names and hashtags that never change. people: names that matter every season (the host). seasons: one per season; castaways (full names and the names they go by) in people, tribe names, twists and season hashtags in terms. episodes: CBS Wednesday 8 PM ET air dates, oldest first; the finale gets \"kind\": \"event\". Survivor 51 data from Wikipedia and Paramount+ (Nov 15 2026). TO DO: episode 9 (Nov 18) is from Wikipedia only; add episodes 10 onward and the finale once CBS lists them. Then run npm test.",
+  "_comment": "accounts: the show's official X handles without the @ (survivorcbs not yet re-confirmed). weak: keywords that are also everyday words or names shared with someone famous; they only count with a context word, a second keyword, or on an air night. context: show vocabulary that backs up a weak keyword but never covers on its own. aliases: show names and hashtags that never change. people: names that matter every season (the host). seasons: one per season; castaways (full names and the names they go by) in people, tribe names, twists and season hashtags in terms. episodes: CBS Wednesday 8 PM ET air dates, oldest first; the finale gets \"kind\": \"event\". Survivor 51 data from Wikipedia and Paramount+ (Nov 15 2026). Episodes 10 to 13 (Nov 25 to the Dec 16 finale) follow the weekly pattern and the 13-episode length of recent seasons; CBS had not confirmed the count on Nov 15 2026. TO DO: confirm on CBS, add real titles as they air, and fix dates if a week is skipped. Then run npm test.",
   "id": "survivor",
   "name": "Survivor",
   "aliases": [
@@ -89,6 +89,10 @@
     { "id": "s51-e06", "title": "Episode 6: I Love Crying", "airDate": "2026-10-28", "seasonId": "s51" },
     { "id": "s51-e07", "title": "Episode 7: The Girl at the Prom", "airDate": "2026-11-04", "seasonId": "s51" },
     { "id": "s51-e08", "title": "Episode 8: Load the Ark, Two by Two", "airDate": "2026-11-11", "seasonId": "s51" },
-    { "id": "s51-e09", "title": "Episode 9: Wilder Than a Cat in a Bathtub", "airDate": "2026-11-18", "seasonId": "s51" }
+    { "id": "s51-e09", "title": "Episode 9: Wilder Than a Cat in a Bathtub", "airDate": "2026-11-18", "seasonId": "s51" },
+    { "id": "s51-e10", "title": "Episode 10", "airDate": "2026-11-25", "seasonId": "s51" },
+    { "id": "s51-e11", "title": "Episode 11", "airDate": "2026-12-02", "seasonId": "s51" },
+    { "id": "s51-e12", "title": "Episode 12", "airDate": "2026-12-09", "seasonId": "s51" },
+    { "id": "s51-finale", "title": "Survivor 51 Finale", "airDate": "2026-12-16", "seasonId": "s51", "kind": "event" }
   ]
 }
