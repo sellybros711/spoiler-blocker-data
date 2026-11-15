@@ -1,0 +1,46 @@
+{
+  "_comment": "A binge show: Hulu released the whole season at once (Nov 12 2026), so every episode has the same date. Use it in \"Hide everything\" mode; remove the show from the popup once finished. Dates cannot tell episodes apart, so ticking one episode does not uncover talk about earlier ones. Episode count: most sources say 8, a few say 10; check Hulu and add episodes 9 and 10 if they exist. accounts: no official X handle found yet; add it without the @ if one turns up. weak: cast members who are famous outside the show (podcasts, YouTube, the original Utah show); they only count with a context word, a second keyword, or on the drop night. 'Mormon Wives' also matches the original Utah show; over-blurring that is accepted. Then run npm test.",
+  "id": "mormon-wives-oc",
+  "name": "The Secret Lives of Mormon Wives: Orange County",
+  "aliases": [
+    "Mormon Wives",
+    "Mormon Wives OC",
+    "Mormon Wives Orange County",
+    "#MormonWivesOC",
+    "#SecretLivesOfMormonWivesOC",
+    "#MomTokOC"
+  ],
+  "people": ["Jen Affleck"],
+  "accounts": [],
+  "weak": ["Jen Affleck", "Bobbi Althoff", "Aspyn Ovard"],
+  "context": ["Mormon", "MomTok", "Hulu", "Orange County", "LDS", "soft swinging", "reunion"],
+  "seasons": [
+    {
+      "id": "season-1",
+      "name": "Season 1",
+      "premiereDate": "2026-11-12",
+      "people": [
+        "Ashleigh Pease",
+        "Aspyn Ovard",
+        "Avery Woods",
+        "Bobbi Althoff",
+        "Jordan McClanahan",
+        "Madison Bontempo",
+        "McCall DaPron",
+        "Salomé Andrea",
+        "Salome Andrea"
+      ],
+      "terms": []
+    }
+  ],
+  "episodes": [
+    { "id": "s1e1", "title": "Episode 1", "airDate": "2026-11-12", "seasonId": "season-1" },
+    { "id": "s1e2", "title": "Episode 2", "airDate": "2026-11-12", "seasonId": "season-1" },
+    { "id": "s1e3", "title": "Episode 3", "airDate": "2026-11-12", "seasonId": "season-1" },
+    { "id": "s1e4", "title": "Episode 4", "airDate": "2026-11-12", "seasonId": "season-1" },
+    { "id": "s1e5", "title": "Episode 5", "airDate": "2026-11-12", "seasonId": "season-1" },
+    { "id": "s1e6", "title": "Episode 6", "airDate": "2026-11-12", "seasonId": "season-1" },
+    { "id": "s1e7", "title": "Episode 7", "airDate": "2026-11-12", "seasonId": "season-1" },
+    { "id": "s1e8", "title": "Episode 8", "airDate": "2026-11-12", "seasonId": "season-1" }
+  ]
+}
