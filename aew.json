@@ -1,5 +1,5 @@
 {
-  "_comment": "AEW (added Nov 15 2026). tracks: Dynamite (Wednesdays 8 PM ET, TBS/HBO Max), Collision (Saturdays 8 PM ET, TNT/HBO Max) and big events (pay-per-views); each has its own last-watched. accounts: official X handles without the @ (only AEW is confirmed). weak: everyday words and phrases (Dynamite, Collision, Full Gear, The Cut, The Elite, Swerve, PAC...); they only count with a context word, a second keyword, or on an air night. seasons: one per calendar year; that year's debuts, new names and factions go in its people and terms. Shows outside the US evening get \"airTime\" (US Eastern). Dates from AEW's events page, Fightful and Wrestling Inc. TO DO: Collision on Dec 19 (Worlds End day) and Dec 26 are taped but their air dates are unconfirmed, so they are left out; Jan 3 to Feb 6 2027 weekly shows are not announced yet; New Year's Smash (Fri Jan 1) and the UK shows (Dynasty, London Dynamite) use early airTimes until US start times are known; Revolution 2027 date. Then run npm test.",
+  "_comment": "AEW (added Nov 15 2026). tracks: Dynamite (Wednesdays 8 PM ET, TBS/HBO Max), Collision (Saturdays 8 PM ET, TNT/HBO Max) and big events (pay-per-views); each has its own last-watched. accounts: official X handles without the @ (only AEW is confirmed). weak: everyday words and phrases (Dynamite, Collision, Full Gear, The Cut, The Elite, Swerve, PAC...); they only count with a context word, a second keyword, or on an air night. seasons: one per calendar year; that year's debuts, new names and factions go in its people and terms. Shows outside the US evening get \"airTime\" (US Eastern). Dates from AEW's events page, Fightful and Wrestling Inc. TO DO: Collision on Dec 19 (Worlds End day) and Dec 26 are taped but their air dates are unconfirmed, so they are left out; Jan 3 to Feb 6 2027 weekly shows are not announced yet; New Year's Smash (Fri Jan 1) and the UK shows (Dynasty, London Dynamite) use early airTimes until US start times are known; Revolution 2027 date. Then run npm test. Never delete or rename an episode id (users have ticked it); to remove one on purpose, also add its id to a \"removedEpisodes\" list, or the extension refuses the file.",
   "id": "aew",
   "name": "AEW",
   "aliases": [
@@ -106,7 +106,17 @@
     "Hurt Syndicate",
     "The Demand",
     "Wrathlander",
-    "Brawling Birds"
+    "Brawling Birds",
+    "Mox",
+    "Darby",
+    "Mercedes",
+    "Bucks",
+    "Cope",
+    "Toni",
+    "Kenny",
+    "Claudio",
+    "Cassidy",
+    "Fletcher"
   ],
   "accounts": [
     "AEW"
@@ -139,7 +149,17 @@
     "The Last Outfit",
     "The New Level",
     "Kofi",
-    "Austin Creed"
+    "Austin Creed",
+    "Mox",
+    "Darby",
+    "Mercedes",
+    "Bucks",
+    "Cope",
+    "Toni",
+    "Kenny",
+    "Claudio",
+    "Cassidy",
+    "Fletcher"
   ],
   "context": [
     "wrestling",
