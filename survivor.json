@@ -1,5 +1,5 @@
 {
-  "_comment": "accounts: the show's official X handles without the @ (survivorcbs not yet re-confirmed). weak: keywords that are also everyday words or names shared with someone famous; they only count with a context word, a second keyword, or on an air night. context: show vocabulary that backs up a weak keyword but never covers on its own. aliases: show names and hashtags that never change. people: names that matter every season (the host). seasons: one per season; castaways (full names and the names they go by) in people, tribe names, twists and season hashtags in terms. episodes: CBS Wednesday 8 PM ET air dates, oldest first; the finale gets \"kind\": \"event\". Survivor 51 data from Wikipedia and Paramount+ (Nov 15 2026). Episodes 10 to 13 (Nov 25 to the Dec 16 finale) follow the weekly pattern and the 13-episode length of recent seasons; CBS had not confirmed the count on Nov 15 2026. TO DO: confirm on CBS, add real titles as they air, and fix dates if a week is skipped. Then run npm test. Never delete or rename an episode id (users have ticked it); to remove one on purpose, also add its id to a \"removedEpisodes\" list, or the extension refuses the file.",
+  "_comment": "accounts: the show's official X handles without the @ (survivorcbs not yet re-confirmed). weak: keywords that are also everyday words or names shared with someone famous; they only count with a context word, a second keyword, or on an air night. context: show vocabulary that backs up a weak keyword but never covers on its own. aliases: show names and hashtags that never change. people: names that matter every season (the host). seasons: one per season; castaways (full names and the names they go by) in people, tribe names, twists and season hashtags in terms. episodes: CBS Wednesday 8 PM ET air dates, oldest first; the finale gets \"kind\": \"event\". Survivor 51 data from Wikipedia and Paramount+ (Nov 15 2026). Episodes 10 to 13 (Nov 25 to the Dec 16 finale) follow the weekly pattern and the 13-episode length of recent seasons; CBS had not confirmed the count on Nov 15 2026. 13 episodes and the 3-hour Dec 16 finale were confirmed by Yahoo on Nov 16 2026. Survivor 52 premieres Wed Feb 24 2027 on CBS (two-hour episodes, cast not announced): add it as a new season once the cast is out. TO DO: confirm on CBS, add real titles as they air, and fix dates if a week is skipped. Then run npm test. Never delete or rename an episode id (users have ticked it); to remove one on purpose, also add its id to a \"removedEpisodes\" list, or the extension refuses the file.",
   "id": "survivor",
   "name": "Survivor",
   "aliases": [
@@ -17,7 +17,9 @@
     "Survivor",
     "Jelly",
     "Dina",
-    "Open Era"
+    "Open Era",
+    "Salt of the Earth Alliance",
+    "Double Duo"
   ],
   "context": [
     "tribal",
@@ -32,7 +34,11 @@
     "castaway",
     "castaways",
     "fire making",
-    "CBS"
+    "CBS",
+    "Shot in the Dark",
+    "Exile Island",
+    "tethered idol",
+    "jurors"
   ],
   "seasons": [
     {
@@ -76,7 +82,11 @@
         "Survivor 51",
         "#Survivor51",
         "Helicopter Alliance",
-        "Salt Alliance"
+        "Salt Alliance",
+        "Tovutu",
+        "Salt of the Earth Alliance",
+        "Double Duo",
+        "Million-Dollar Coin Flip"
       ]
     }
   ],

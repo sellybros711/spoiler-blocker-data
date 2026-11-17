@@ -39,7 +39,25 @@
     "Kira",
     "Strickland",
     "Zurich",
-    "121212"
+    "121212",
+    "Dan Foose",
+    "Foose",
+    "Serge Descoteaux",
+    "José Garcia",
+    "Ayah Layouni",
+    "Camélia Jordana",
+    "Mauro Freuler",
+    "Merlin Leonhardt",
+    "Jan Kobel",
+    "Pit Bukowski",
+    "Franz Huber",
+    "Huber",
+    "Georg Bütow",
+    "Kevin McNeil",
+    "Patrick Fabian",
+    "Ueli Burkhalter",
+    "Bernd Hölscher",
+    "Florian Kleinmatz"
   ],
   "weak": [
     "Anthony Mackie",
@@ -49,7 +67,12 @@
     "Kira",
     "Strickland",
     "Zurich",
-    "121212"
+    "121212",
+    "Foose",
+    "José Garcia",
+    "Huber",
+    "Kevin McNeil",
+    "Patrick Fabian"
   ],
   "everyday": [
     "Anthony Mackie",
@@ -59,7 +82,12 @@
     "Kira",
     "Strickland",
     "Zurich",
-    "121212"
+    "121212",
+    "Foose",
+    "José Garcia",
+    "Huber",
+    "Kevin McNeil",
+    "Patrick Fabian"
   ],
   "context": [
     "heist",
