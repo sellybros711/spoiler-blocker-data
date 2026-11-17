@@ -1,0 +1,83 @@
+{
+  "_comment": "Hulu (Disney+ abroad) comedy-mystery, 8 episodes, Tuesdays Oct 20 - Dec 1, 2026 (two-episode premiere). Most sources: out at 12:00 AM ET Tuesday, so airTime 00:00. 'Phony' is an everyday word: weak/everyday, needs backup (Hulu, impostor, episode…); #PhonyOnHulu / #PhonyHulu are strong (fan-used, not confirmed official). The town/school name Delby comes from one review, so weak. No show-specific X account found.",
+  "id": "phony",
+  "name": "Phony",
+  "aliases": [
+    "#PhonyOnHulu",
+    "#PhonyHulu",
+    "Phony on Hulu"
+  ],
+  "people": [
+    "Sam Nivola",
+    "Grace Brennan",
+    "Maliq Johnson",
+    "Meera Syal",
+    "Colter Lee",
+    "Mahaela Park",
+    "Nick Paley",
+    "Sonny Cooke",
+    "Ellen Cooke",
+    "Mallory Russell",
+    "Reverse Cuckoo",
+    "Delby High",
+    "Phony",
+    "Sonny",
+    "Ellen",
+    "Mallory",
+    "Vogel",
+    "Weldon",
+    "Cooke",
+    "Delby",
+    "Connie Britton"
+  ],
+  "weak": [
+    "Phony",
+    "Sonny",
+    "Ellen",
+    "Mallory",
+    "Vogel",
+    "Weldon",
+    "Cooke",
+    "Delby",
+    "Connie Britton"
+  ],
+  "everyday": [
+    "Phony",
+    "Sonny",
+    "Ellen",
+    "Cooke",
+    "Connie Britton",
+    "Delby"
+  ],
+  "context": [
+    "Hulu",
+    "impostor",
+    "imposter",
+    "replaced",
+    "private investigator",
+    "episode",
+    "finale",
+    "spoiler",
+    "spoilers",
+    "Sharla"
+  ],
+  "seasons": [
+    {
+      "id": "s1",
+      "name": "Season 1",
+      "premiereDate": "2026-10-20",
+      "people": [],
+      "terms": []
+    }
+  ],
+  "episodes": [
+    {"id": "ph-e01", "title": "Ep 1: Pilot", "airDate": "2026-10-20", "airTime": "00:00", "seasonId": "s1"},
+    {"id": "ph-e02", "title": "Ep 2: Crosby, Stills, and Nash", "airDate": "2026-10-20", "airTime": "00:00", "seasonId": "s1"},
+    {"id": "ph-e03", "title": "Ep 3: Reverse Cuckoo Situation", "airDate": "2026-10-27", "airTime": "00:00", "seasonId": "s1"},
+    {"id": "ph-e04", "title": "Ep 4: Vibes Are Rancid", "airDate": "2026-11-03", "airTime": "00:00", "seasonId": "s1"},
+    {"id": "ph-e05", "title": "Ep 5: House of Dog", "airDate": "2026-11-10", "airTime": "00:00", "seasonId": "s1"},
+    {"id": "ph-e06", "title": "Ep 6: I'm Right Here", "airDate": "2026-11-17", "airTime": "00:00", "seasonId": "s1"},
+    {"id": "ph-e07", "title": "Ep 7: What Comes Up?", "airDate": "2026-11-24", "airTime": "00:00", "seasonId": "s1"},
+    {"id": "ph-e08", "title": "Ep 8: You've Got a Good Life (finale)", "airDate": "2026-12-01", "airTime": "00:00", "seasonId": "s1", "kind": "event"}
+  ]
+}

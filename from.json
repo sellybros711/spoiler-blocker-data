@@ -1,0 +1,104 @@
+{
+  "_comment": "MGM+ horror. Season 4 ran Sundays 9 PM ET, Apr 19 - Jun 28, 2026, with no episode May 24 (dates from FROMily; some guides end it Jun 21; check IMDb/TheTVDB if editing). Season 5 (final) renewed Apr 2026, filming through about Nov 2026, premiere expected 2027 (no date yet: add it when announced). For people catching up. 'From' itself is never a keyword (everyday word): the show is matched by Fromville, #FROMseries, cast and character names. @FROMonMGMPlus was not confirmed, so no accounts.",
+  "id": "from",
+  "name": "From (MGM+)",
+  "aliases": [
+    "Fromville",
+    "#FROMseries",
+    "#Fromville",
+    "FROMily",
+    "FROM series"
+  ],
+  "people": [
+    "Harold Perrineau",
+    "Catalina Sandino Moreno",
+    "Eion Bailey",
+    "Hannah Cheramy",
+    "Simon Webster",
+    "David Alpay",
+    "Elizabeth Saunders",
+    "Scott McCord",
+    "Robert Joy",
+    "Ricky He",
+    "Chloe Van Landschoot",
+    "Pegah Ghafoori",
+    "Corteon Moore",
+    "Avery Konrad",
+    "Shaun Majumder",
+    "Kaelen Ohm",
+    "Boyd Stevens",
+    "Tabitha Matthews",
+    "Julie Matthews",
+    "Jade Herrera",
+    "Donna Raines",
+    "Victor Kavanaugh",
+    "Kenny Liu",
+    "Kristi Miller",
+    "Fatima Hassan",
+    "Ellis Stevens",
+    "Father Khatri",
+    "Man in Yellow",
+    "Boy in White",
+    "Kimono Woman",
+    "Boyd",
+    "Tabitha",
+    "Smiley",
+    "Township",
+    "talismans",
+    "Bottle Tree",
+    "Colony House",
+    "Kavanaugh"
+  ],
+  "weak": [
+    "Boyd",
+    "Tabitha",
+    "Smiley",
+    "Township",
+    "talismans",
+    "Bottle Tree",
+    "Colony House",
+    "Kavanaugh"
+  ],
+  "everyday": [
+    "Boyd",
+    "Tabitha",
+    "Smiley",
+    "Township",
+    "Kavanaugh"
+  ],
+  "context": [
+    "MGM",
+    "horror",
+    "episode",
+    "finale",
+    "season 4",
+    "season 5",
+    "monsters",
+    "talisman",
+    "spoiler",
+    "spoilers"
+  ],
+  "seasons": [
+    {
+      "id": "s4",
+      "name": "Season 4",
+      "premiereDate": "2026-04-19",
+      "people": [
+        "Julia Doyle"
+      ],
+      "terms": []
+    }
+  ],
+  "episodes": [
+    {"id": "s4-e01", "title": "S4 Ep 1: The Arrival", "airDate": "2026-04-19", "airTime": "21:00", "seasonId": "s4"},
+    {"id": "s4-e02", "title": "S4 Ep 2: Fray", "airDate": "2026-04-26", "airTime": "21:00", "seasonId": "s4"},
+    {"id": "s4-e03", "title": "S4 Ep 3: Merrily We Go", "airDate": "2026-05-03", "airTime": "21:00", "seasonId": "s4"},
+    {"id": "s4-e04", "title": "S4 Ep 4: Of Myths and Monsters", "airDate": "2026-05-10", "airTime": "21:00", "seasonId": "s4"},
+    {"id": "s4-e05", "title": "S4 Ep 5: What a Long Strange Trip It's Been", "airDate": "2026-05-17", "airTime": "21:00", "seasonId": "s4"},
+    {"id": "s4-e06", "title": "S4 Ep 6: The Heart Is a Lonely Hunter", "airDate": "2026-05-31", "airTime": "21:00", "seasonId": "s4"},
+    {"id": "s4-e07", "title": "S4 Ep 7: Best Laid Plans", "airDate": "2026-06-07", "airTime": "21:00", "seasonId": "s4"},
+    {"id": "s4-e08", "title": "S4 Ep 8: Heavy Is the Head", "airDate": "2026-06-14", "airTime": "21:00", "seasonId": "s4"},
+    {"id": "s4-e09", "title": "S4 Ep 9: The Calm Before", "airDate": "2026-06-21", "airTime": "21:00", "seasonId": "s4"},
+    {"id": "s4-e10", "title": "S4 Ep 10: If a Tree Falls in the Forest… (finale)", "airDate": "2026-06-28", "airTime": "21:00", "seasonId": "s4", "kind": "event"}
+  ]
+}

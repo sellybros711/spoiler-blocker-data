@@ -1,0 +1,96 @@
+{
+  "_comment": "Apple TV heist limited series, 8 episodes, Fridays Nov 13 - Dec 25, 2026 (two-episode premiere). Apple usually posts episodes at 9 PM ET the night before, so airDate is the Thursday with airTime 21:00 (earlier is safer; the hour is not official). '121212' and '12/12/12' are also a date, so 121212 is weak/everyday; '12 12 12' with spaces is kept strong. Anthony Mackie is weak (also in Avengers: Doomsday). No show-specific X account or official hashtag found (#121212 is a guess).",
+  "id": "12-12-12",
+  "name": "12 12 12",
+  "aliases": [
+    "12 12 12",
+    "#121212",
+    "#12_12_12"
+  ],
+  "people": [
+    "Jamie Dornan",
+    "Jack Kesy",
+    "Agathe Rousselle",
+    "Sallie Harmsen",
+    "Julius Feldmeier",
+    "Jeanne Balibar",
+    "Kali Reis",
+    "Ólafur Darri Ólafsson",
+    "Adam Rothenberg",
+    "Jack Strickland",
+    "Paul Galvin",
+    "Bobby Galvin",
+    "Galvin brothers",
+    "Lena Thalmann",
+    "Thalmann",
+    "Alberich",
+    "Blasius Holtz",
+    "Gunda Erlinger",
+    "Kleinmatz",
+    "Burkhalter",
+    "Descoteaux",
+    "Lindenhof Bank",
+    "Lindenhof",
+    "Einfach Obergeil",
+    "Anthony Mackie",
+    "Galvin",
+    "Severine",
+    "Bazin",
+    "Kira",
+    "Strickland",
+    "Zurich",
+    "121212"
+  ],
+  "weak": [
+    "Anthony Mackie",
+    "Galvin",
+    "Severine",
+    "Bazin",
+    "Kira",
+    "Strickland",
+    "Zurich",
+    "121212"
+  ],
+  "everyday": [
+    "Anthony Mackie",
+    "Galvin",
+    "Severine",
+    "Bazin",
+    "Kira",
+    "Strickland",
+    "Zurich",
+    "121212"
+  ],
+  "context": [
+    "heist",
+    "vault",
+    "robbery",
+    "bank job",
+    "FBI",
+    "Apple TV",
+    "episode",
+    "finale",
+    "spoiler",
+    "spoilers",
+    "Dornan"
+  ],
+  "seasons": [
+    {
+      "id": "s1",
+      "name": "Season 1",
+      "premiereDate": "2026-11-12",
+      "people": [],
+      "terms": []
+    }
+  ],
+  "episodes": [
+    {"id": "tw-e01", "title": "Ep 1: I'm Robbing the House on Christmas Eve While the Family's at Mass", "airDate": "2026-11-12", "airTime": "21:00", "seasonId": "s1"},
+    {"id": "tw-e02", "title": "Ep 2: I Want My Halo Back", "airDate": "2026-11-12", "airTime": "21:00", "seasonId": "s1"},
+    {"id": "tw-e03", "title": "Ep 3: Einfach Obergeil", "airDate": "2026-11-19", "airTime": "21:00", "seasonId": "s1"},
+    {"id": "tw-e04", "title": "Ep 4: That's How You Make a Boy Baby", "airDate": "2026-11-26", "airTime": "21:00", "seasonId": "s1"},
+    {"id": "tw-e05", "title": "Ep 5: One for the Money, Two for the Show", "airDate": "2026-12-03", "airTime": "21:00", "seasonId": "s1"},
+    {"id": "tw-e06", "title": "Ep 6: I Know Who You Are", "airDate": "2026-12-10", "airTime": "21:00", "seasonId": "s1"},
+    {"id": "tw-e07", "title": "Ep 7: You're One of Us, Maybe You Always Were", "airDate": "2026-12-17", "airTime": "21:00", "seasonId": "s1"},
+    {"id": "tw-e08", "title": "Ep 8: The Banks Must Pay (finale)", "airDate": "2026-12-24", "airTime": "21:00", "seasonId": "s1", "kind": "event"}
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "_comment": "Apple TV. Season 4 ran Wednesdays Aug 5 - Oct 7, 2026 (10 episodes; Apple posts at 12 AM ET, i.e. 9 PM PT Tuesday, so airTime 00:00). Not renewed for season 5 as of Oct 2026. For people catching up (use Hide everything to start from season 1). accounts: @TedLasso is Apple's show account. weak/everyday: everyday words and common names (Believe, Richmond, Lasso, Higgins…). The S4 women's team name is not confirmed, so not added.",
+  "id": "ted-lasso",
+  "name": "Ted Lasso",
+  "aliases": [
+    "Ted Lasso",
+    "#TedLasso",
+    "#TedLassoS4",
+    "AFC Richmond"
+  ],
+  "people": [
+    "Jason Sudeikis",
+    "Hannah Waddingham",
+    "Brett Goldstein",
+    "Brendan Hunt",
+    "Juno Temple",
+    "Jeremy Swift",
+    "Annette Badland",
+    "Phil Dunster",
+    "Nick Mohammed",
+    "Toheeb Jimoh",
+    "Cristo Fernández",
+    "Cristo Fernandez",
+    "Kola Bokinni",
+    "James Lance",
+    "Sarah Niles",
+    "Anthony Head",
+    "Rebecca Welton",
+    "Roy Kent",
+    "Keeley Jones",
+    "Leslie Higgins",
+    "Jamie Tartt",
+    "Nate Shelley",
+    "Sam Obisanya",
+    "Dani Rojas",
+    "Isaac McAdoo",
+    "Trent Crimm",
+    "Sharon Fieldstone",
+    "Rupert Mannion",
+    "Nelson Road",
+    "Crown & Anchor",
+    "Total Football",
+    "Lasso",
+    "Believe",
+    "Richmond",
+    "Greyhounds",
+    "Higgins",
+    "Boots",
+    "Diamond Dogs",
+    "Nate the Great",
+    "Coach Beard"
+  ],
+  "accounts": [
+    "TedLasso"
+  ],
+  "weak": [
+    "Lasso",
+    "Believe",
+    "Richmond",
+    "Greyhounds",
+    "Higgins",
+    "Boots",
+    "Diamond Dogs",
+    "Nate the Great",
+    "Coach Beard"
+  ],
+  "everyday": [
+    "Lasso",
+    "Believe",
+    "Richmond",
+    "Greyhounds",
+    "Higgins",
+    "Boots"
+  ],
+  "context": [
+    "Apple TV",
+    "episode",
+    "finale",
+    "season 4",
+    "football",
+    "coach",
+    "spoiler",
+    "spoilers",
+    "Sudeikis"
+  ],
+  "seasons": [
+    {
+      "id": "s4",
+      "name": "Season 4",
+      "premiereDate": "2026-08-05",
+      "people": [
+        "Tanya Reynolds",
+        "Alice Chilton",
+        "Abbie Hern",
+        "Gemma Jay",
+        "Faye Marsay",
+        "Lizzie Davis",
+        "Jude Mack",
+        "Grant Feely",
+        "Henry Lasso"
+      ],
+      "terms": []
+    }
+  ],
+  "episodes": [
+    {"id": "s4-e01", "title": "S4 Ep 1: Home", "airDate": "2026-08-05", "airTime": "00:00", "seasonId": "s4"},
+    {"id": "s4-e02", "title": "S4 Ep 2: Curiouser and Curiouser!", "airDate": "2026-08-12", "airTime": "00:00", "seasonId": "s4"},
+    {"id": "s4-e03", "title": "S4 Ep 3: Richmond's Got Talent", "airDate": "2026-08-19", "airTime": "00:00", "seasonId": "s4"},
+    {"id": "s4-e04", "title": "S4 Ep 4: Greyhounds' Day Off", "airDate": "2026-08-26", "airTime": "00:00", "seasonId": "s4"},
+    {"id": "s4-e05", "title": "S4 Ep 5: Riches of Embarrassment", "airDate": "2026-09-02", "airTime": "00:00", "seasonId": "s4"},
+    {"id": "s4-e06", "title": "S4 Ep 6: Don't Jump Around Much Anymore", "airDate": "2026-09-09", "airTime": "00:00", "seasonId": "s4"},
+    {"id": "s4-e07", "title": "S4 Ep 7: Yes & Baby", "airDate": "2026-09-16", "airTime": "00:00", "seasonId": "s4"},
+    {"id": "s4-e08", "title": "S4 Ep 8: Follow the Anger", "airDate": "2026-09-23", "airTime": "00:00", "seasonId": "s4"},
+    {"id": "s4-e09", "title": "S4 Ep 9: Mae Rides the Bus", "airDate": "2026-09-30", "airTime": "00:00", "seasonId": "s4"},
+    {"id": "s4-e10", "title": "S4 Ep 10: Being Alive (finale)", "airDate": "2026-10-07", "airTime": "00:00", "seasonId": "s4", "kind": "event"}
+  ]
+}
