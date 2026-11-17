@@ -612,7 +612,7 @@
     { "id": "smackdown-2026-11-20", "title": "SmackDown, Nov 20", "airDate": "2026-11-20", "track": "smackdown", "seasonId": "2026" },
     { "id": "raw-2026-11-23", "title": "RAW, Nov 23", "airDate": "2026-11-23", "track": "raw", "seasonId": "2026" },
     { "id": "nxt-2026-11-24", "title": "NXT, Nov 24", "airDate": "2026-11-24", "seasonId": "2026", "track": "nxt" },
-    { "id": "smackdown-2026-11-27", "title": "SmackDown, Nov 27", "airDate": "2026-11-27", "track": "smackdown", "seasonId": "2026" },
+    { "id": "smackdown-2026-11-27", "title": "SmackDown, Nov 27", "airDate": "2026-11-27", "track": "smackdown", "seasonId": "2026", "tapedDate": "2026-11-23", "tapedTime": "23:00" },
     { "id": "ple-survivor-series-2026", "title": "Survivor Series: WarGames 2026 (Houston)", "airDate": "2026-11-28", "track": "events", "seasonId": "2026", "kind": "event" },
     { "id": "raw-2026-11-30", "title": "RAW, Nov 30", "airDate": "2026-11-30", "track": "raw", "seasonId": "2026" },
     { "id": "nxt-2026-12-01", "title": "NXT, Dec 1", "airDate": "2026-12-01", "seasonId": "2026", "track": "nxt" },
