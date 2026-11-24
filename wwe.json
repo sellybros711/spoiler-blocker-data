@@ -1,5 +1,5 @@
 {
-  "_comment": "tracks: RAW, SmackDown, NXT and big events each have their own last-watched; every episode needs a \"track\": \"raw\", \"smackdown\", \"nxt\" or \"events\". NXT weekly shows and NXT's own big events (TLC, Worlds Collide) go in the nxt track. accounts: the show's official X handles without the @; anything they post is covered as about the show. Edit this file in the spoiler-blocker-data repo on GitHub (pencil icon), not here; npm run pull-data copies it back before a store release. aliases: show names, hashtags and premium live event names that never change. people: wrestlers, managers and factions who have been around a while. weak: keywords that are also everyday words; they only count with a context word, a second keyword, or on an air night. context: wrestling words that back up a weak keyword. seasons: one per calendar year; that year's debuts, new ring names, new factions and storyline words go in its people and terms. episodes: every RAW, SmackDown and premium live event, oldest first, newest last, with the seasonId of its year; premium live events get \"kind\": \"event\". A show that does not start in the evening US Eastern gets \"airTime\": \"HH:MM\" (Eastern), like the Perth event. Keep ids unique. RAW and SmackDown dates after the week of Nov 13, 2026 are the normal Monday/Friday schedule and have not been checked one by one. NXT (added Nov 15 2026): Tuesdays 8 PM ET on The CW. Nov 4 moved to Wednesday (election). Worlds Collide: Doomsday (Dec 15) may replace that week's NXT; start reported as 7:30 or 8 PM, so 19:30 is used (earlier is safer). Jan 5 is expected to be New Year's Evil (not yet announced). Perth: SmackDown Dec 11 and RAW Dec 14 air in the US morning (airTime 04:00 until start times are final); the John Cena Classic (Orlando) is that evening, Dec 14. Taped shows (reported Nov 17 2026, not confirmed by WWE): SmackDown Nov 27 is taped after RAW on Nov 23 (Wichita), SmackDown Jan 1 is probably taped Dec 28 (Tampa, joint taping), and SmackDown Dec 25 may be taped Dec 21 (Washington DC); spoilers for those appear on X days early. Royal Rumble Feb 6 2027 at State Farm Stadium, Glendale (confirmed). TO DO: NXT New Year's Evil and Vengeance Day 2027 dates. Never delete or rename an episode id (users have ticked it); to remove one on purpose, also add its id to a \"removedEpisodes\" list, or the extension refuses the file. everyday: weak keywords so ordinary they need backup even on a show night (a wrestling word, a second name, or an author who has been posting about the show); distinctive names like Cody or Rhea stay out of it so they still count alone on show nights.",
+  "_comment": "tracks: RAW, SmackDown, NXT and big events each have their own last-watched; every episode needs a \"track\": \"raw\", \"smackdown\", \"nxt\" or \"events\". NXT weekly shows and NXT's own big events (TLC, Worlds Collide) go in the nxt track. accounts: the show's official X handles without the @; anything they post is covered as about the show. Edit this file in the spoiler-blocker-data repo on GitHub (pencil icon), not here; npm run pull-data copies it back before a store release. aliases: show names, hashtags and premium live event names that never change. people: wrestlers, managers and factions who have been around a while. weak: keywords that are also everyday words; they only count with a context word, a second keyword, or on an air night. context: wrestling words that back up a weak keyword. seasons: one per calendar year; that year's debuts, new ring names, new factions and storyline words go in its people and terms. episodes: every RAW, SmackDown and premium live event, oldest first, newest last, with the seasonId of its year; premium live events get \"kind\": \"event\". A show that does not start in the evening US Eastern gets \"airTime\": \"HH:MM\" (Eastern), like the Perth event. Keep ids unique. RAW and SmackDown dates after the week of Nov 13, 2026 are the normal Monday/Friday schedule and have not been checked one by one. NXT (added Nov 15 2026): Tuesdays 8 PM ET on The CW. Nov 4 moved to Wednesday (election). Worlds Collide: Doomsday (Dec 15) may replace that week's NXT; start reported as 7:30 or 8 PM, so 19:30 is used (earlier is safer). Jan 5 is expected to be New Year's Evil (not yet announced). Perth: SmackDown Dec 11 and RAW Dec 14 air in the US morning (airTime 04:00 until start times are final); the John Cena Classic (Orlando) is that evening, Dec 14. Taped shows (reported Nov 17 2026, not confirmed by WWE): SmackDown Nov 27 is taped after RAW on Nov 23 (Wichita), SmackDown Jan 1 is probably taped Dec 28 (Tampa, joint taping), and SmackDown Dec 25 may be taped Dec 21 (Washington DC); spoilers for those appear on X days early. Update Nov 24 2026: F4W/WON and others report both holiday tapings as the plan (Dec 21 Washington DC show starts 6:30 PM ET with RAW live and the Dec 25 SmackDown taped; Dec 28 Tampa tapes the Jan 1 SmackDown), so tapedDate was added to both; WWE has not confirmed the order or times, so the earliest time is used (18:30 on Dec 21, the default 6 PM on Dec 28). Survivor Series (Nov 28) starts 6 PM ET. Royal Rumble Feb 6 2027 at State Farm Stadium, Glendale (confirmed). TO DO: NXT New Year's Evil and Vengeance Day 2027 dates. Never delete or rename an episode id (users have ticked it); to remove one on purpose, also add its id to a \"removedEpisodes\" list, or the extension refuses the file. everyday: weak keywords so ordinary they need backup even on a show night (a wrestling word, a second name, or an author who has been posting about the show); distinctive names like Cody or Rhea stay out of it so they still count alone on show nights.",
   "id": "wwe",
   "name": "WWE",
   "aliases": [
@@ -342,7 +342,8 @@
     "Blake Howard",
     "The Standout",
     "The Main One",
-    "Spin the Block"
+    "Spin the Block",
+    "Stacks"
   ],
   "everyday": [
     "RAW",
@@ -412,7 +413,8 @@
     "Blake Howard",
     "The Standout",
     "The Main One",
-    "Spin the Block"
+    "Spin the Block",
+    "Stacks"
   ],
   "context": [
     "wrestling",
@@ -552,7 +554,9 @@
         "Lil Yachty",
         "Blake Howard",
         "Hacksaw Jim Duggan",
-        "Jim Duggan"
+        "Jim Duggan",
+        "Skylar Raye",
+        "Stacks"
       ],
       "terms": [
         "The 946",
@@ -636,10 +640,10 @@
     { "id": "smackdown-2026-12-18", "title": "SmackDown, Dec 18", "airDate": "2026-12-18", "track": "smackdown", "seasonId": "2026" },
     { "id": "raw-2026-12-21", "title": "RAW, Dec 21", "airDate": "2026-12-21", "track": "raw", "seasonId": "2026" },
     { "id": "nxt-2026-12-22", "title": "NXT, Dec 22", "airDate": "2026-12-22", "seasonId": "2026", "track": "nxt" },
-    { "id": "smackdown-2026-12-25", "title": "SmackDown, Dec 25", "airDate": "2026-12-25", "track": "smackdown", "seasonId": "2026" },
+    { "id": "smackdown-2026-12-25", "title": "SmackDown, Dec 25", "airDate": "2026-12-25", "track": "smackdown", "seasonId": "2026", "tapedDate": "2026-12-21", "tapedTime": "18:30" },
     { "id": "raw-2026-12-28", "title": "RAW, Dec 28", "airDate": "2026-12-28", "track": "raw", "seasonId": "2026" },
     { "id": "nxt-2026-12-29", "title": "NXT, Dec 29", "airDate": "2026-12-29", "seasonId": "2026", "track": "nxt" },
-    { "id": "smackdown-2027-01-01", "title": "SmackDown, Jan 1", "airDate": "2027-01-01", "track": "smackdown", "seasonId": "2027" },
+    { "id": "smackdown-2027-01-01", "title": "SmackDown, Jan 1", "airDate": "2027-01-01", "track": "smackdown", "seasonId": "2027", "tapedDate": "2026-12-28" },
     { "id": "raw-2027-01-04", "title": "RAW, Jan 4", "airDate": "2027-01-04", "track": "raw", "seasonId": "2027" },
     { "id": "nxt-2027-01-05", "title": "NXT, Jan 5 (New Year's Evil expected)", "airDate": "2027-01-05", "seasonId": "2027", "track": "nxt" },
     { "id": "smackdown-2027-01-08", "title": "SmackDown, Jan 8", "airDate": "2027-01-08", "track": "smackdown", "seasonId": "2027" },

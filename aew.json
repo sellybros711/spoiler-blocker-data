@@ -1,5 +1,5 @@
 {
-  "_comment": "AEW (added Nov 15 2026). tracks: Dynamite (Wednesdays 8 PM ET, TBS/HBO Max), Collision (Saturdays 8 PM ET, TNT/HBO Max) and big events (pay-per-views); each has its own last-watched. accounts: official X handles without the @ (only AEW is confirmed). weak: everyday words and phrases (Dynamite, Collision, Full Gear, The Cut, The Elite, Swerve, PAC...); they only count with a context word, a second keyword, or on an air night. seasons: one per calendar year; that year's debuts, new names and factions go in its people and terms. Shows outside the US evening get \"airTime\" (US Eastern). Dates from AEW's events page, Fightful and Wrestling Inc. TO DO: Collision on Dec 19 (Worlds End day) and Dec 26 are taped but their air dates are unconfirmed, so they are left out; January 2027 weekly shows added Nov 16 (F4W: Collision live from Arlington Jan 9/16/23; Jan 30 Collision not announced; the Feb 3 Sugar Land taping's Collision air date unknown, probably Sat Feb 6); New Year's Smash (Fri Jan 1) and the UK shows (Dynasty, London Dynamite) use early airTimes until US start times are known; Revolution 2027 date (not announced on Nov 17). Worlds End (Dec 19, Minneapolis): AEW lists 6:00 PM CT, which may be doors or the pre-show, so no airTime yet; check the real start (if before 6 PM ET, add an earlier airTime). Then run npm test. Never delete or rename an episode id (users have ticked it); to remove one on purpose, also add its id to a \"removedEpisodes\" list, or the extension refuses the file. everyday: weak keywords so ordinary they need backup even on a show night (a wrestling word, a second name, or an author who has been posting about the show); distinctive names like Cody or Rhea stay out of it so they still count alone on show nights.",
+  "_comment": "AEW (added Nov 15 2026). tracks: Dynamite (Wednesdays 8 PM ET, TBS/HBO Max), Collision (Saturdays 8 PM ET, TNT/HBO Max) and big events (pay-per-views); each has its own last-watched. accounts: official X handles without the @ (only AEW is confirmed). weak: everyday words and phrases (Dynamite, Collision, Full Gear, The Cut, The Elite, Swerve, PAC...); they only count with a context word, a second keyword, or on an air night. seasons: one per calendar year; that year's debuts, new names and factions go in its people and terms. Shows outside the US evening get \"airTime\" (US Eastern). Dates from AEW's events page, Fightful and Wrestling Inc. December schedule from the TBS/TNT listings (Fightful, POST Wrestling, F4W, Nov 23 2026): three-hour Wednesday blocks on Dec 2 and Dec 16 (Dynamite 8 PM ET, then Collision 10 PM ET), a normal Saturday Collision on Dec 5 and Dec 12, no Collision on Dec 19 (Worlds End, 7 PM ET), Collision: Holiday Bash on Sat Dec 26, no Dynamite on Dec 30. TO DO: January 2027 weekly shows added Nov 16 (F4W: Collision live from Arlington Jan 9/16/23; Jan 30 Collision not announced; the Feb 3 Sugar Land taping's Collision air date unknown, probably Sat Feb 6); New Year's Smash (Fri Jan 1) and the UK shows (Dynasty, London Dynamite) use early airTimes until US start times are known; Revolution 2027 date (not announced on Nov 17). Worlds End (Dec 19, Minneapolis): the TV listings give 7 PM ET (AEW's 6:00 PM CT), so no airTime is needed. Then run npm test. Never delete or rename an episode id (users have ticked it); to remove one on purpose, also add its id to a \"removedEpisodes\" list, or the extension refuses the file. everyday: weak keywords so ordinary they need backup even on a show night (a wrestling word, a second name, or an author who has been posting about the show); distinctive names like Cody or Rhea stay out of it so they still count alone on show nights.",
   "id": "aew",
   "name": "AEW",
   "aliases": [
@@ -468,7 +468,9 @@
         "Jaden Monroe",
         "RJ Wylde",
         "Jordan Cruz",
-        "AZM"
+        "AZM",
+        "Laynie Luck",
+        "Viva Van"
       ],
       "terms": [
         "The New Level",
@@ -515,12 +517,15 @@
     { "id": "dynamite-2026-11-25", "title": "Dynamite, Thanksgiving Eve", "airDate": "2026-11-25", "seasonId": "2026", "track": "dynamite" },
     { "id": "collision-2026-11-26", "title": "Collision, Thanksgiving (Thursday)", "airDate": "2026-11-26", "seasonId": "2026", "track": "collision" },
     { "id": "dynamite-2026-12-02", "title": "Dynamite, Dec 2", "airDate": "2026-12-02", "seasonId": "2026", "track": "dynamite" },
+    { "id": "collision-2026-12-02", "title": "Collision, Dec 2 (Wednesday, after Dynamite)", "airDate": "2026-12-02", "seasonId": "2026", "track": "collision" },
     { "id": "collision-2026-12-05", "title": "Collision, Dec 5", "airDate": "2026-12-05", "seasonId": "2026", "track": "collision" },
     { "id": "dynamite-2026-12-09", "title": "Dynamite: Winter Is Coming", "airDate": "2026-12-09", "seasonId": "2026", "track": "dynamite" },
     { "id": "collision-2026-12-12", "title": "Collision: Winter Is Coming", "airDate": "2026-12-12", "seasonId": "2026", "track": "collision" },
     { "id": "dynamite-2026-12-16", "title": "Dynamite, Dec 16", "airDate": "2026-12-16", "seasonId": "2026", "track": "dynamite" },
+    { "id": "collision-2026-12-16", "title": "Collision, Dec 16 (Wednesday, after Dynamite)", "airDate": "2026-12-16", "seasonId": "2026", "track": "collision" },
     { "id": "aew-worlds-end-2026", "title": "Worlds End 2026", "airDate": "2026-12-19", "seasonId": "2026", "track": "events", "kind": "event" },
     { "id": "dynamite-2026-12-23", "title": "Dynamite: Holiday Bash", "airDate": "2026-12-23", "seasonId": "2026", "track": "dynamite" },
+    { "id": "collision-2026-12-26", "title": "Collision: Holiday Bash", "airDate": "2026-12-26", "seasonId": "2026", "track": "collision" },
     { "id": "dynamite-2027-01-01", "title": "Dynamite: New Year's Smash (Friday)", "airDate": "2027-01-01", "seasonId": "2027", "track": "dynamite", "airTime": "15:30" },
     { "id": "collision-2027-01-02", "title": "Collision: New Year's Smash", "airDate": "2027-01-02", "seasonId": "2027", "track": "collision" },
     { "id": "dynamite-2027-01-06", "title": "Dynamite, Jan 6 (Cedar Park)", "airDate": "2027-01-06", "seasonId": "2027", "track": "dynamite" },
