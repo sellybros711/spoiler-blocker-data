@@ -299,7 +299,8 @@
     "Blue League",
     "Triple B",
     "Jordan Cruz",
-    "AZM"
+    "AZM",
+    "Dangerous New Level"
   ],
   "everyday": [
     "Dynamite",
@@ -499,7 +500,8 @@
         "Blue League",
         "Triple B",
         "One True Championship",
-        "RPG Vice"
+        "RPG Vice",
+        "Dangerous New Level"
       ]
     },
     {
@@ -515,7 +517,7 @@
     { "id": "dynamite-2026-11-18", "title": "Dynamite, Nov 18 (Continental Classic begins)", "airDate": "2026-11-18", "seasonId": "2026", "track": "dynamite" },
     { "id": "collision-2026-11-21", "title": "Collision, Nov 21", "airDate": "2026-11-21", "seasonId": "2026", "track": "collision" },
     { "id": "dynamite-2026-11-25", "title": "Dynamite, Thanksgiving Eve", "airDate": "2026-11-25", "seasonId": "2026", "track": "dynamite" },
-    { "id": "collision-2026-11-26", "title": "Collision, Thanksgiving (Thursday)", "airDate": "2026-11-26", "seasonId": "2026", "track": "collision" },
+    { "id": "collision-2026-11-26", "title": "Collision, Thanksgiving (Thursday)", "airDate": "2026-11-26", "seasonId": "2026", "track": "collision", "tapedDate": "2026-11-25", "tapedTime": "22:00" },
     { "id": "dynamite-2026-12-02", "title": "Dynamite, Dec 2", "airDate": "2026-12-02", "seasonId": "2026", "track": "dynamite" },
     { "id": "collision-2026-12-02", "title": "Collision, Dec 2 (Wednesday, after Dynamite)", "airDate": "2026-12-02", "seasonId": "2026", "track": "collision" },
     { "id": "collision-2026-12-05", "title": "Collision, Dec 5", "airDate": "2026-12-05", "seasonId": "2026", "track": "collision" },
