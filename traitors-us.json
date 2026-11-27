@@ -1,5 +1,5 @@
 {
-  "_comment": "accounts: the show's official X handles without the @ (none confirmed yet). weak: keywords that are also everyday words or common names; they only count with a context word, a second keyword, or on an air night. context: show vocabulary that backs up a weak keyword but never covers on its own. aliases: show names and hashtags that never change. people: names that matter every season (the host). seasons: one per season; that season's cast goes in people, named twists and season hashtags in terms. episodes: the date it FIRST airs in the US (New Blood: NBC Thursday 8 PM ET; Peacock is the next day), oldest first. Two episodes on the same night are ONE entry (\"Episodes 1 & 2\"): Plot Armor draws its line by date and keeps a two-episode night covered until both are ticked, so one entry reads more simply in the popup. The finale gets \"kind\": \"event\". New Blood dates from NBC's schedule, titles and cast from Wikipedia (Nov 2026). Next: the celebrity season (Peacock, early 2027) once its date is announced. Then run npm test. Never delete or rename an episode id (users have ticked it); to remove one on purpose, also add its id to a \"removedEpisodes\" list, or the extension refuses the file.",
+  "_comment": "accounts: the show's official X handles without the @ (none confirmed yet). weak: keywords that are also everyday words or common names; they only count with a context word, a second keyword, or on an air night. context: show vocabulary that backs up a weak keyword but never covers on its own. aliases: show names and hashtags that never change. people: names that matter every season (the host). seasons: one per season; that season's cast goes in people, named twists and season hashtags in terms. episodes: the date it FIRST airs in the US (New Blood: NBC Thursday 8 PM ET; Peacock is the next day), oldest first. Two episodes on the same night are ONE entry (\"Episodes 1 & 2\"): Plot Armor draws its line by date and keeps a two-episode night covered until both are ticked, so one entry reads more simply in the popup. The finale gets \"kind\": \"event\". New Blood dates from NBC's schedule, titles and cast from Wikipedia (Nov 2026). Season 5 (celebrities, Peacock only, added Nov 24 2026): two episodes Thu Jan 14 2027 at 9 PM ET, then weekly on Thursdays through the finale and reunion on Mar 18 (Peacock/NBCUniversal, Nov 17 2026); cast from Peacock. The cast are famous for other things, so every name is weak (counts with a Traitors word or on an episode night). Episode numbers after the premiere are assumed one a week: fix the titles (never the ids) if Peacock drops two in a week. Then run npm test. Never delete or rename an episode id (users have ticked it); to remove one on purpose, also add its id to a \"removedEpisodes\" list, or the extension refuses the file.",
   "id": "traitors-us",
   "name": "The Traitors",
   "aliases": [
@@ -13,7 +13,7 @@
   ],
   "people": ["Alan Cumming"],
   "accounts": [],
-  "weak": ["The Traitors", "Abby Lee", "Logan Smith", "Morgan Cook"],
+  "weak": ["The Traitors", "Abby Lee", "Logan Smith", "Morgan Cook", "Bianca Del Rio", "Boman Martinez-Reid", "Bronwyn Newport", "Casey Wilson", "Chloe Kim", "Cody Simpson", "Craig Conover", "Cynthia Bailey", "Dominic Monaghan", "Emira D'Spain", "Gizelle Bryant", "Iain Stirling", "Jag Bains", "JaNa Craig", "Joey Graziadei", "Johnny Sibilly", "Kristin Chenoweth", "Michele Fitzgerald", "Q Burdette", "Rachel Robinson", "Rashad Jennings", "Taylor Hale", "Whitney Leavitt"],
   "context": ["roundtable", "round table", "banished", "banishment", "murdered", "faithful", "faithfuls", "castle", "turret", "shield", "Peacock", "NBC", "New Blood"],
   "seasons": [
     {
@@ -56,6 +56,37 @@
         "Vollbrechthausen"
       ],
       "terms": ["#TraitorsNewBlood"]
+    },
+    {
+      "id": "s5",
+      "name": "Season 5 (2027)",
+      "premiereDate": "2027-01-14",
+      "people": [
+        "Bianca Del Rio",
+        "Boman Martinez-Reid",
+        "Bronwyn Newport",
+        "Casey Wilson",
+        "Chloe Kim",
+        "Cody Simpson",
+        "Craig Conover",
+        "Cynthia Bailey",
+        "Dominic Monaghan",
+        "Emira D'Spain",
+        "Gizelle Bryant",
+        "Iain Stirling",
+        "Jag Bains",
+        "JaNa Craig",
+        "Joey Graziadei",
+        "Johnny Sibilly",
+        "Kristin Chenoweth",
+        "Michele Fitzgerald",
+        "Q Burdette",
+        "Rachel Robinson",
+        "Rashad Jennings",
+        "Taylor Hale",
+        "Whitney Leavitt"
+      ],
+      "terms": ["Traitors Season 5"]
     }
   ],
   "episodes": [
@@ -67,6 +98,16 @@
     { "id": "nb-e08", "title": "Episode 8: A Bad Apple", "airDate": "2026-10-29", "seasonId": "new-blood" },
     { "id": "nb-e09", "title": "Episode 9: Playing Chess", "airDate": "2026-11-05", "seasonId": "new-blood" },
     { "id": "nb-e10", "title": "Episode 10: The Sun, the Moon and the Truth", "airDate": "2026-11-12", "seasonId": "new-blood" },
-    { "id": "nb-finale", "title": "New Blood Finale (Episodes 11 & 12)", "airDate": "2026-11-19", "seasonId": "new-blood", "kind": "event" }
+    { "id": "nb-finale", "title": "New Blood Finale (Episodes 11 & 12)", "airDate": "2026-11-19", "seasonId": "new-blood", "kind": "event" },
+    { "id": "s5-2027-01-14", "title": "Season 5, Episodes 1 & 2", "airDate": "2027-01-14", "seasonId": "s5" },
+    { "id": "s5-2027-01-21", "title": "Season 5, Episode 3", "airDate": "2027-01-21", "seasonId": "s5" },
+    { "id": "s5-2027-01-28", "title": "Season 5, Episode 4", "airDate": "2027-01-28", "seasonId": "s5" },
+    { "id": "s5-2027-02-04", "title": "Season 5, Episode 5", "airDate": "2027-02-04", "seasonId": "s5" },
+    { "id": "s5-2027-02-11", "title": "Season 5, Episode 6", "airDate": "2027-02-11", "seasonId": "s5" },
+    { "id": "s5-2027-02-18", "title": "Season 5, Episode 7", "airDate": "2027-02-18", "seasonId": "s5" },
+    { "id": "s5-2027-02-25", "title": "Season 5, Episode 8", "airDate": "2027-02-25", "seasonId": "s5" },
+    { "id": "s5-2027-03-04", "title": "Season 5, Episode 9", "airDate": "2027-03-04", "seasonId": "s5" },
+    { "id": "s5-2027-03-11", "title": "Season 5, Episode 10", "airDate": "2027-03-11", "seasonId": "s5" },
+    { "id": "s5-finale", "title": "Season 5 Finale and Reunion", "airDate": "2027-03-18", "seasonId": "s5", "kind": "event" }
   ]
 }
